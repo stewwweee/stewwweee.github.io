@@ -1,7 +1,7 @@
 theme: jekyll-theme-midnight
 # Change the color of the page header
 midnight:
-  header_color: "#333333"
+  header_color: "#232545"
 
 # Add a description to the site metadata
 description: "My awesome Midnight-themed website"
