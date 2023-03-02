@@ -1,3 +1,11 @@
+@import url("https://cdn.jsdelivr.net/gh/pages-themes/cayman@v0.2.0/_sass/cayman.scss");
+
+/* Override the header */
+.page-header {
+  display: none;
+}
+
+
 /* Customize the skills section */
   .skills li:hover {
   background-color: #333;
