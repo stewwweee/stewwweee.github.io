@@ -1,7 +1,38 @@
-.Header-link span {
-  display: none;
+/* Customize the skills section */
+  .skills li:hover {
+  background-color: #333;
+  color: #fff;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
-.Header-link:before {
-  content: "Welcome to Chris Stewart's Blog";
-  font-size: 24px;
+  
+.skills {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.skills h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills li {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: #ddd;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
 }
