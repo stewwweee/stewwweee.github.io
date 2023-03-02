@@ -1,1 +1,10 @@
 theme: jekyll-theme-midnight
+# Change the color of the page header
+midnight:
+  header_color: "#333333"
+
+# Add a description to the site metadata
+description: "My awesome Midnight-themed website"
+
+# Enable syntax highlighting for code blocks
+highlighter: rouge
