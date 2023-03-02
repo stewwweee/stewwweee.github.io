@@ -1,21 +1,6 @@
 @import "jekyll-theme-cayman";
 
 
-/* Override the header */
-.page-header {
-  display: none;
-}
-
-
-.project-name {
-  display: block;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #333;
-  margin: 2rem 0;
-}
-
-
 /* Customize the skills section */
   .skills li:hover {
   background-color: #333;
