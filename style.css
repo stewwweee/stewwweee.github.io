@@ -1,0 +1,7 @@
+.Header-link span {
+  display: none;
+}
+.Header-link:before {
+  content: "Welcome to Chris Stewart's Blog";
+  font-size: 24px;
+}
