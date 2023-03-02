@@ -1,7 +1,3 @@
-# stewwweee.github.io
-# hello world
-## double hash 
-* 1 
-* 2
-* 3
-theme: Architect
+# Hi Welcome come to the site
+
+[Resume.pdf](https://github.com/stewwweee/stewwweee.github.io/files/10874306/Resume.pdf)
