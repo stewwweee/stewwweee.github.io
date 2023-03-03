@@ -23,4 +23,8 @@ sass:
   style: compressed
   debug: true
   custom: /custom.css # Add this line
-exclude: ["README.md", "LICENSE", "CODE_OF_CONDUCT.md"]
+exclude:
+  - README.md
+  - LICENSE
+  - CODE_OF_CONDUCT.md
+  - _layouts/footer.html # Add this line
