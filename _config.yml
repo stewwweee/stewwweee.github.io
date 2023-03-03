@@ -4,6 +4,7 @@ theme: jekyll-theme-cayman
 baseurl: /
 github:
   is_project_page: false
+  
 sass:
   style: compressed
   sass_dir: _sass
