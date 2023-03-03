@@ -5,7 +5,7 @@ const GitHubStrategy = require('passport-github2').Strategy;
 
 passport.use(new GitHubStrategy({
   clientID: 3a0e3b7c59e031ab742c,
-  clientSecret: GITHUB_CLIENT_SECRET,
+  clientSecret: dcd69f1d0f8fafd20d22216a4f8b8157fef24882,
   callbackURL: "https://chrisstewartblog.netlify.app/"
 },
 function(accessToken, refreshToken, profile, done) {
