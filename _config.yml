@@ -2,3 +2,5 @@ title: Chris Stewart's Blog
 description: A blog about web development
 theme: jekyll-theme-cayman
 baseurl: /
+github:
+  is_project_page: false
