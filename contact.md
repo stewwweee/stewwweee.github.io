@@ -2,6 +2,8 @@
 layout: default
 title: Contact
 ---
+<link rel="stylesheet" href="/custom.css">
+<link rel="stylesheet" href="/style.css">
 
 # Contact Me
 
