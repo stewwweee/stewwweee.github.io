@@ -4,15 +4,29 @@ layout: default
 <!-- index.html -->
 
 <header>
-  <nav>
-    <!-- Navigation links go here -->
-    <form id="signup-form">
-      <input type="email" class="form-control" name="email" placeholder="Email address" required>
-      <input type="password" class="form-control" name="password" placeholder="Password" required>
-      <button class="btn btn-primary" type="submit">Sign up</button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Chris Stewart Blog</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <form id="signup-form" class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="email" name="email" placeholder="Email address" required>
+      <input class="form-control mr-sm-2" type="password" name="password" placeholder="Password" required>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign up</button>
     </form>
   </nav>
 </header>
+
 
 <link rel="stylesheet" href="/style.css">
 
