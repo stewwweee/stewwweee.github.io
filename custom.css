@@ -41,6 +41,21 @@ nav {
   background-color: #333;
 }
 
+/* Customizations for the header */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+}
+
+.site-header--hidden {
+  transform: translateY(-100%);
+}
+
 
 .site-header nav {
   display: flex;
@@ -107,7 +122,12 @@ nav {
   .site-header nav {
     flex-direction: column;
   }
-  
+  @media (max-width: 768px) {
+  .skills li {
+    flex-basis: 48%;
+  }
+}
+
   .site-header nav a {
     margin: 1rem 0;
   }
