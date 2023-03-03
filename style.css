@@ -1,6 +1,10 @@
 @import "jekyll-theme-cayman";
 
 
+#header form {
+  display: inline-block;
+  float: right;
+}
 
 /* Customize the skills section */
   .skills li:hover {
