@@ -1,34 +1,20 @@
 @import "jekyll-theme-cayman";
 
 /* custom.css */
-.site-nav ul {
+.site-header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.site-header nav ul {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+}
+.site-header nav li {
+  margin: 0 10px;
 }
 
-.site-nav li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.site-nav li:last-child {
-  margin-right: 0;
-}
-
-.site-nav a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-.site-nav a:hover {
-  background-color: #333;
-  color: #fff;
-}
 
 
 
