@@ -1,28 +1,9 @@
 @import "jekyll-theme-cayman";
 
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-  }
-
-  form {
-    display: flex;
-    align-items: center;
-  }
-
-  input[type="email"],
-  input[type="password"] {
-    margin-right: 5px;
-  }
-
-  button {
-    margin-left: 5px;
-  }
+nav .form-inline {
+  margin-left: auto;
+}
 
 #signup-form button[type="submit"] {
   display: block;
