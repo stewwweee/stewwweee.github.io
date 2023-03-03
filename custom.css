@@ -1,4 +1,9 @@
-#header form {
-  display: inline-block;
-  float: right;
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #signup-form {
+    margin-left: auto;
 }
