@@ -2,6 +2,8 @@
 layout: default
 title: About
 ---
+<link rel="stylesheet" href="/custom.css">
+<link rel="stylesheet" href="/style.css">
 
 # About Me
 
