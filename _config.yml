@@ -4,3 +4,21 @@ theme: jekyll-theme-cayman
 baseurl: /
 github:
   is_project_page: false
+sass:
+  style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - assets/css
+    - ./
+  scss:
+    default_charset: "utf-8"
+    style: compressed
+    sass_dir: _sass
+    load_paths:
+      - _sass
+      - assets/css
+      - ./
+  style: compressed
+  debug: true
+  custom: /custom.css # Add this line
