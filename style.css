@@ -1,6 +1,10 @@
 @import "jekyll-theme-cayman";
 
 
+#signup-form button[type="submit"] {
+  display: block;
+}
+
 /* Customize the skills section */
   .skills li:hover {
   background-color: #333;
