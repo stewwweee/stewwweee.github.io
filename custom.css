@@ -5,28 +5,23 @@
 
 
 /* Customizations for the navigation bar */
-.site-header {
-  position: static;
-  background-color: transparent;
-}
-
 .site-header nav {
   display: flex;
   justify-content: center;
 }
 
-.site-header nav a {
-  margin: 0 1rem;
-  color: #444;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
+.site-header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.site-header nav a:hover {
-  color: #0366d6;
+.site-header li {
+  margin: 0 1rem;
 }
+
+
 
 
 /* Customizations for the skills section */
