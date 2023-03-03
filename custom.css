@@ -1,37 +1,17 @@
 ---
 ---
 
-/* Header Navigation */
+@import "jekyll-theme-cayman";
+
+/* Add custom CSS rules here */
 
 .site-header {
-  background-color: #007FFF;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 999;
 }
-
-.site-header ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.site-header li {
-  font-size: 1.2rem;
-}
-
-.site-header a {
-  color: #fff;
-  text-decoration: none;
-  padding: 1rem;
-}
-
-/* Skills section */
 
 .skills {
   margin-top: 2rem;
@@ -44,49 +24,30 @@
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: bold;
-  color: #333;
+  color: #24292e;
 }
 
 .skills ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .skills li {
+  display: inline-block;
   margin: 0.5rem;
   padding: 0.5rem;
-  background-color: #ddd;
+  background-color: #fafbfc;
   border-radius: 5px;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #333;
-  flex: 0 0 32%;
+  color: #24292e;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 768px) {
-  .site-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-  }
-  
-  .site-header ul {
-    margin-top: 1rem;
-  }
-  
-  .site-header li {
-    font-size: 1rem;
-    margin: 0.5rem;
-    padding: 0.5rem;
-  }
-  
-  .skills li {
-    flex: 0 0 48%;
-  }
+.skills li:hover {
+  background-color: #0366d6;
+  color: #fff;
+  transform: scale(1.1);
 }
