@@ -1,18 +1,28 @@
 @import "jekyll-theme-cayman";
 
 /* custom.css */
-.site-header nav {
+/* style.css */
+.site-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 20px;
+  background-color: #f2f2f2;
 }
-.site-header nav ul {
+
+nav ul {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
-.site-header nav li {
-  margin: 0 10px;
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
 }
 
 
