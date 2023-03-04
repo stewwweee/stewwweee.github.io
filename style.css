@@ -1,5 +1,17 @@
 @import "jekyll-theme-cayman";
 
+/* profile-picture */
+.profile-picture {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px;
+}
+
 /* Customize the skills section */
 .skills {
  position: absolute;
