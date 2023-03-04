@@ -2,8 +2,8 @@
 layout: default
 title: About
 ---
-<link rel="stylesheet" href="/custom.css">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="./custom.css">
+<link rel="stylesheet" href="./style.css">
 <header class="site-header">
    <nav>
   <ul>
