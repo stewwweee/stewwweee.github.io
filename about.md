@@ -34,4 +34,4 @@ Check out my [GitHub profile](https://github.com/stewwweee) to see my latest pro
 
 Feel free to [get in touch](mailto:chrisstewartaug2@gmail.com) or check out my [GitHub profile](https://github.com/stewwweee/).
 
-Linked in profile [Linked profile] (https://www.linkedin.com/in/chris-stewart-6a3015239)
+Linked in profile  ([Linkedin Profile](https://www.linkedin.com/in/chris-stewart-6a3015239))
