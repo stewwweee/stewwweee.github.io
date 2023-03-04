@@ -49,7 +49,7 @@
 
 /* Profile picture media query */
 @media only screen and (max-width: 480px) {
-  .profile-pic {
+  .profile-picture {
       position: absolute;
     top: 39px;
     right: -87px;
