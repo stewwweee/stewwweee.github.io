@@ -101,18 +101,6 @@
   }
 }
 
-@media only screen and (max-width: 1020px) {
- .profile-picture {
-    position: absolute;
-    top: -28px;
-    right: -65px;
-    width: 171px;
-    height: 133px;
-    object-fit: cover;
-    border-radius: 0%;
-    margin: 91px;
-}
-}
 
 @media only screen and (max-width: 1285px) {
 .skills {
