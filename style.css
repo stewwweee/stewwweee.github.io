@@ -50,26 +50,30 @@
 /* Profile picture media query */
 @media only screen and (max-width: 480px) {
   .profile-pic {
-    float: none;
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 50%;
+      position: absolute;
+    top: 39px;
+    right: -87px;
+    width: 73px;
+    height: 58px;
+    object-fit: cover;
+    border-radius: 0%;
+    margin: 91px;
   }
 }
 
 /* Skills section media query */
 @media only screen and (max-width: 480px) {
   .skills {
-    margin-top: 30px;
-  }
-  .skills h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  .skills ul {
-    margin-left: 20px;
-    font-size: 16px;
-  }
+    margin-top: 16px;
+}
+  .skills {
+    position: inherit;
+    top: 245px;
+    right: 73px;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    width: 200px;
+}
 }
 
