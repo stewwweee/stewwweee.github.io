@@ -50,14 +50,14 @@
 /* Profile picture media query */
 @media only screen and (max-width: 480px) {
   .profile-picture {
-   position: absolute;
+    position: absolute;
     top: 8px;
-    right: -87px;
-    width: 73px;
-    height: 58px;
+    right: -92px;
+    width: 86px;
+    height: 67px;
     object-fit: cover;
     border-radius: 0%;
-    margin: 91px;
+    margin: 93px;
   }
 }
 
