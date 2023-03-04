@@ -46,3 +46,30 @@
   font-weight: bold;
   color: #333;
 }
+
+/* Profile picture media query */
+@media only screen and (max-width: 480px) {
+  .profile-pic {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+  }
+}
+
+/* Skills section media query */
+@media only screen and (max-width: 480px) {
+  .skills {
+    margin-top: 30px;
+  }
+  .skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .skills ul {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+}
+
