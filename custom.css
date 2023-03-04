@@ -76,49 +76,6 @@ nav {
   margin: 0 1rem;
 }
 
-
-/* Customizations for the skills section */
-.skills {
-  margin-top: 2rem;
-  padding: 2rem;
-  background-color: #f5f5f5;
-  border-radius: 5px;
-}
-
-.skills h2 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #333;
-}
-
-.skills ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.skills li {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  background-color: #ddd;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #333;
-  transition: all 0.3s ease-in-out;
-}
-
-.skills li:hover {
-  background-color: #0366d6;
-  color: #fff;
-  transform: scale(1.1);
-}
-
-
 /* Customizations for mobile view */
 @media (max-width: 768px) {
   .site-header nav {
