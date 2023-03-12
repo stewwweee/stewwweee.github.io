@@ -142,7 +142,7 @@ nav {
 }
 
 /* footer */
-.footer ul{
+footer .social-icons {
   display: flex;
     justify-content: space-between;
 }
