@@ -141,6 +141,15 @@ nav {
   color: #333;
 }
 
+.footer col-md-6 {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 /* Profile picture media query */
 @media only screen and (max-width: 480px) {
   .profile-picture {
