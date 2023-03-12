@@ -142,45 +142,9 @@ nav {
 }
 
 /* footer */
-.footer {
+.footer ul{
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.footer .col-md-6 {
-  display: flex;
-}
-
-.social-icons {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.social-icons li {
-  margin-right: 10px;
-}
-
-.social-icons li:last-child {
-  margin-right: 0;
-}
-
-.social-icons a {
-  display: flex;
-  align-items: center;
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.social-icons a:hover {
-  color: #bbb;
-}
-
-.social-icons i {
-  margin-right: 5px;
+    justify-content: space-between;
 }
 
 
