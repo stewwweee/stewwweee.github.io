@@ -241,15 +241,31 @@ html, body {
   padding: 0;
 }
 
-body {
+.content-wrapper {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-.content-wrapper {
-  flex: 1;
+.content-wrapper > main, /* or other main content container */
+.content-wrapper > .site-header, 
+.content-wrapper > .skills, 
+.content-wrapper > p, /* if direct children */
+.content-wrapper > img {
+  /* These can be flex children, or wrap your main content area within a <main> tag with flex:1 */
+  /* Better to put your main content inside a <main> and set flex:1 on it */
 }
+
+main {
+  flex: 1 0 auto; /* Grow to fill available space */
+}
+
+footer {
+  margin-top: auto; /* Push footer to bottom */
+  width: 100%;
+  /* other footer styling */
+}
+
 
 
 
