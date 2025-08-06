@@ -144,8 +144,7 @@ position: absolute;
 
 /* footer */
 footer {
-  position: fixed;
-  left: 0;
+  position: relative; /* Remove fixed */
   bottom: 0;
   width: 100%;
   background: #fff;
@@ -204,6 +203,22 @@ footer .social-icons {
     border-radius: 5px;
     width: 200px;
 }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  flex: 1;
 }
 
 
