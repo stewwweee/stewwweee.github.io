@@ -17,10 +17,10 @@ title: About
 
 # About Me
 
-I'm S Chris Stewart, a seasoned software testing professional with 5 years of experience in manual and automation testing. My expertise lies in tools such as Selenium, TestNG, Cucumber, Taiko Gauge, and Jenkins. I am passionate about delivering high-quality software products and love to collaborate with cross-functional teams to achieve that goal. When I'm not testing software, you can find me exploring the latest trends and innovations in the world of technology. Join me on my journey to create robust and reliable software that powers the future.
+I'm S Chris Stewart, a seasoned software testing professional with 7 years of experience in manual and automation testing. My expertise lies in tools such as Selenium, TestNG, Cucumber, Taiko Gauge, and Jenkins. I am passionate about delivering high-quality software products and love to collaborate with cross-functional teams to achieve that goal. When I'm not testing software, you can find me exploring the latest trends and innovations in the world of technology. Join me on my journey to create robust and reliable software that powers the future.
 
 ## Skills
-
+- Playwright
 - Selenium
 - TestNG
 - Cucumber

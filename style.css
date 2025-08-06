@@ -96,14 +96,17 @@ nav {
 
 /* profile-picture */
 .profile-picture {
- position: absolute;
-    top: 34px;
-    right: -87px;
-    width: 201px;
-    height: 162px;
-    object-fit: cover;
-    border-radius: 0%;
-    margin: 91px;
+  display: block;
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%; /* Makes it circular, remove if you want a rectangle */
+  margin: 120px auto 32px auto; /* Centers below header, adjust as needed */
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  position: relative;
+  top: 0;
+  right: 0;
 }
 
 /* Customize the skills section */
